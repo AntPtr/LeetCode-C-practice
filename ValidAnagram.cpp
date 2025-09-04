@@ -9,7 +9,6 @@ bool isAnagram(char* s, char* t) {
     for(int i = 0; t[i] != '\0'; ++i)
     {
         --count[t[i] - 'a'];
-        ++s;
     }
 
     for(int i = 0; i < 26; ++i)
